@@ -1,15 +1,16 @@
 'use strict';
 const Deployer = require('./SolidityDeployer');
+const config = require('../config');
 
 const args = process.argv;
-const seedPhrase = '<seed phrase>';
+const seedPhrase = config.wallet.seedphrase;
 let networkApi;
 const contractLocation = args[3];
 const contract = args[4];
 const objectKey = args[5];
 
 if(args[2] == 'rinkby'){
-    networkApi = 'https://rinkeby.infura.io/v3/0265da76a18c4c32acd1719a762b49b7'
+    networkApi = config.network.rinkby.api;
 }
 const deployer = new Deployer(seedPhrase, networkApi, contractLocation, 
     contract, objectKey);
