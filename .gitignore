@@ -1,5 +1,5 @@
 # Ignore folder named node_modules  
 node_modules/
 
-# Ignore future commits of config file
+# Ignore future commits of 'config.js' file
 config.js
