@@ -2,7 +2,7 @@
 const Deployer = require('./SolidityDeployer');
 
 const args = process.argv;
-const seedPhrase = 'tube hold bacon gap review marriage leave educate rubber eagle pause typical';
+const seedPhrase = '<seed phrase>';
 let networkApi;
 const contractLocation = args[3];
 const contract = args[4];
