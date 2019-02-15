@@ -8,7 +8,7 @@ The goal of this project is to help new and experienced solidity developers alik
 ## Getting Started
 
 Disclaimer: 
-The dependency versions in this tutorial are known to work together. One could certainly use more recent versions of the various dependencies. If updating to recent dependencies seems daunting, start out following the except steps explained here, and then work to upgrade versions aftwards. So... let's get to it. 
+The dependency versions in this tutorial are known to work together. One could certainly use more recent versions of the various dependencies. If updating to recent dependencies seems daunting, start out following the steps exactly as explained here, and then work to upgrade versions aftwards. So... let's get to it. 
 
 ### Prerequisites
 
