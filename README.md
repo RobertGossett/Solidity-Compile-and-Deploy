@@ -2,12 +2,13 @@
 
 Contains code to compile and deloy solidity smart contracts to various networks (with some configuration, of course). This repository contains a Compiler and Deployer component, ```npm run <command>``` configurations for testing, custom deployment, and an example contract deployment, as well as a ```config.js``` file for wallet configuration. At the moment, the Rinkby test network is configured into ```config.js```. 
 
-The goal of this project is to help new solidity developers focus on smart contract development in local environments (rather than using remix). By the end of this guide, you will have a local node.js project set up to compile and deploy your own Solidity smart contracts. GLHF!
+The goal of this project is to help new and experienced solidity developers alike focus on smart contract development in a local environment contract. (rather than using remix). By the end of this guide, you will have a local node.js project set up to compile and deploy your own Solidity smart contracts. GLHF!
 
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+Disclaimer: 
+The dependency versions in this tutorial are known to work together. One could certainly use more recent versions of the various dependencies. If updating to recent dependencies seems daunting, start out following the except steps explained here, and then work to upgrade versions aftwards. So... let's get to it. 
 
 ### Prerequisites
 
