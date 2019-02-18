@@ -12,7 +12,10 @@ The dependency versions in this tutorial are known to work together although the
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+To get things going here, you'll need to install ```node``` along with ```npm``` (node package manager).
+
+For Node and npm, go to https://nodejs.org/en/download/ and download for your operationg system.
+
 
 ```
 Give examples
