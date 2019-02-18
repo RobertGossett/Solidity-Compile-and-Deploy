@@ -128,5 +128,5 @@ Follow these steps.
 
 ## Acknowledgments
 
-* Juan Franc Blanco for the IDE Solidity Compiler
+* Juan Fran Blanco for the IDE Solidity Compiler
 
