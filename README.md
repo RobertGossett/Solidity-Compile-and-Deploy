@@ -34,13 +34,18 @@ So... In steps, starting from scratch, and in no particular order
 Now that you've done all of that setup. You will need to clone this repository to an easy to find directory.
 
 1. Create a directory called solidity-cd, or something of the like. In your Terminal, run
-```$ mkdir solidity-cd
-   $ cd solidity-cd
+```
+$ mkdir solidity-cd
+$ cd solidity-cd
 ```
 2. Clone the reposity into that directory
-```$ git clone https://github.com/RobertGossett/Solidity-Compile-and-Deploy.git```
+```
+$ git clone https://github.com/RobertGossett/Solidity-Compile-and-Deploy.git
+```
 3. Install the necessary packages for the project via ```npm```
-```$ npm install```
+```
+$ npm install
+```
 
 ```
 Give the example
