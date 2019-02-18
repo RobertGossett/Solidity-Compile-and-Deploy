@@ -38,7 +38,7 @@ So... In steps, starting from scratch, and in no particular order
 
 ### Adding Ethereum
 
-Now, we need to add Ethereum to our wallet on the Rinkby test network.
+We need to add Ethereum to our wallet on the Rinkby test network.
 Go to the Rinkby Authenticated Faucet and follow the steps there: https://faucet.rinkeby.io/
 
 ### Installing
