@@ -92,12 +92,14 @@ This will deploy the Inbox Solidity contract to the Rinkby network.
 
 When deploying a custom contract, you can run the command
 ```
-$ npm run dpl rinkby <contract-directory> <contract-file-name> :<contract-name>
+$ npm run dpl <network-name> <contract-directory> <contract-file-name> :<contract-name>
 ```
 So deploying the Inbox contract from the generic deployment command would look like this.
 ```
 $ node deploy/deploy.js rinkby ../contracts inbox.sol :Inbox
 ```
+Note: Rinkby is the only network configured in this demo.
+
 ## Interacting With Inbox
 
 After deployin the contract, we can actually interact with the contract through a nice GUI.
@@ -109,7 +111,7 @@ Follow these steps.
 3. Select the wallet's public key in the "account" dropdown
 4. In the "At Address" input field, post the address for the Inbox contract that we deployed earlier.
 5. Press the "At Address" button to load our contract. 
-6. You'll see the contract pop up in the pain below. You can now interact there. Go ahead.  
+6. You'll see the contract pop up in the pain below. You can now interact there. Go ahead.
 
 
 ## Built With
