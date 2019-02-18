@@ -12,20 +12,35 @@ The dependency versions in this tutorial are known to work together although the
 
 ### Prerequisites
 
-To get things going here, you'll need to install ```node``` along with ```npm``` (node package manager).
+To get things going here, you'll need to install ```node.js``` along with ```npm``` (node package manager). 
+For Node and npm, go to https://nodejs.org/en/download/ and pick the download for your operationg system.
 
-For Node and npm, go to https://nodejs.org/en/download/ and download for your operationg system.
+If you don't already have it, you will also need to install git on your computer. Here is the link: https://git-scm.com/downloads
 
+On top of that, you'll need your favorite IDE. Visual Studio Code is one that I like to use.
+Here is the download link for that: https://code.visualstudio.com
 
-```
-Give examples
-```
+If you want to install a Solidity Compiler, you can find a good one from github here: https://github.com/juanfranblanco/vscode-solidity. This helps when working with Solidity code in your IDE with code highlighting and other features. It can be added to VSC directly via the extensions sub-tab on the left (the square one). 
+
+So... In steps, starting from scratch, and in no particular order
+1. Install node.js and npm: https://nodejs.org/en/download/ 
+2. Install git: https://git-scm.com/downloads
+3. Install an IDE if you don't have one (VSC: https://code.visualstudio.com)
+4. Install the Solidity Compiler: https://github.com/juanfranblanco/vscode-solidity
+
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
+Now that you've done all of that setup. You will need to clone this repository to an easy to find directory.
 
-Say what the step will be
+1. Create a directory called solidity-cd, or something of the like. In your Terminal, run
+```$ mkdir solidity-cd
+   $ cd solidity-cd
+```
+2. Clone the reposity into that directory
+```$ git clone https://github.com/RobertGossett/Solidity-Compile-and-Deploy.git```
+3. Install the necessary packages for the project via ```npm```
+```$ npm install```
 
 ```
 Give the example
