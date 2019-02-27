@@ -7,7 +7,7 @@
     "test": "mocha",
     "cmpl": "node compile/compile.js",
     "cmplinbox": "node compile/compile.js ../contracts inbox.sol :Inbox",
-    "dpl": "done deploy/deploy.js",
+    "dpl": "node deploy/deploy.js",
     "dplirnk": "node deploy/deploy.js rinkby ../contracts inbox.sol :Inbox"
   },
   "author": "",
